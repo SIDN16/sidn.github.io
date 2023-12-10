@@ -1,0 +1,121 @@
+
+/* Setup and Products Used */
+
+.setup {
+  font-family: futura;
+  color: white;
+  margin: 0px 0px 0px 53px;
+}
+
+.products {
+  font-family: futura;
+  color: white;
+  margin: 30px 0px -1px 6px;
+}
+
+.s-info {
+  font-family: futura light;
+  margin: 25px 15px 0px 15px;
+  font-size: 0.9em;
+  font-weight: 350;
+  color: white;
+}
+
+
+/* Photography Gallery */
+
+.pwork1 {
+  height: 100%;
+  transition: 0.5s;
+  border-radius: 5%;
+  margin: 0px 30px 0px 0px;
+  filter: blur(0.5px) grayscale(100%);
+  border: #ffffff 2px solid;
+}
+
+.pwork1:hover {
+  height: 100%;
+  filter: grayscale(0%);
+  transition: 0.5s;
+  scale: 1.12;
+  border-radius: 0%;
+  filter: drop-shadow(0px 0px 5px rgb(0, 0, 0));
+  margin: 0px 30px 0px 0px;
+  border: 0px;
+  cursor: pointer;
+}
+
+.pwork1:active {
+  height: 100%;
+  filter: grayscale(0%);
+  transition: 0.3s;
+  scale: 0.9;
+  border-radius: 10%;
+  filter: drop-shadow(0px 0px 5px rgb(0, 0, 0));
+  margin: 0px 30px 0px 0px;
+}
+
+/* Overlay */
+
+#p-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.93);
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+}
+
+#p-overlay-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#p-overlay.show {
+  display: flex;
+  opacity: 1;
+}
+
+#p-overlay img {
+  max-width: 26%;
+  max-height: 100%;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  margin: 0px 0px 0px 0px;
+}
+
+#p-text-container {
+  color: #fff;
+  font-size: 1.3em;
+  font-family: futura light;
+  display: none;
+  margin: 0px 150px 0px 10px;
+}
+
+
+/* Overlay Close Button */
+
+#close-btn {
+  position: absolute;
+  top: -15px;
+  right: 30px;
+  color: #808080;
+  cursor: pointer;
+  font-size: 4em;
+  transition: 0.5s;
+}
+
+#close-btn:hover {
+  position: absolute;
+  top: -15px;
+  right: 30px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 4em;
+  transition: 0.5s;
+}

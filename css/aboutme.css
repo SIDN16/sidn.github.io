@@ -1,0 +1,54 @@
+.exp {
+  font-family: futura;
+  margin: 30px 10px 10px 10px;
+  font-size: 2em;
+}
+
+.softwares {
+  font-family: futura;
+  margin: 10px 10px 10px 10px;
+  font-size: 2em;
+}
+
+/* Software Icons */
+
+.softicon {
+  max-width: 12% !important;
+  width: auto;
+  height: auto;
+  margin: 0px 10px 0px 10px;
+  display: inline-block;
+}
+
+/* Edu exp soft int skill */
+
+.titles {
+  font-family: futura;
+  margin: 30px 10px 20px 10px;
+  font-size: 2em;
+  padding: ;
+}
+
+.edu {
+  font-family: exo light;
+  margin: 30px 100px 20px 50px;
+  font-size: 0.9em;
+}
+
+.skedu {
+  font-family: exo light;
+  margin: 10px 100px 20px 50px;
+  font-size: 0.9em;
+}
+
+.int {
+  font-family: exo light;
+  margin: 10px 100px 0px 50px;
+  font-size: 0.9em;
+}
+
+.skilltitle {
+  font-family: futura;
+  margin: 10px 0px 0px 40px;
+  font-size: 1.1em;
+}
