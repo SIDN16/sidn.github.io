@@ -119,3 +119,20 @@
   font-size: 4em;
   transition: 0.5s;
 }
+
+
+@font-face {
+  font-family: futura;
+  src: url("futura.ttf");
+}
+
+
+@font-face {
+  font-family: futura light;
+  src: url("futura light bt.ttf");
+}
+
+@font-face {
+  font-family: exo light;
+  src: url(Exo-VariableFont_wght.ttf);
+}
