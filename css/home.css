@@ -1,3 +1,21 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  opacity: 1;
+  background-color: #212529!important;
+}
+
+#bgVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0.2;
+  z-index: -1;
+}
+
 .Button {
   margin: 15px 0px 15px 0px;
   padding: 10px 30px 10px 30px;
@@ -9,7 +27,6 @@
   background-color: #212529;
   font-size: 1.3em;
   font-family: futura;
-
 }
 
 .Button:hover {
@@ -101,7 +118,8 @@ SCROLL TO TOP
 
 .hr1 {
   margin: 0.3% 7.4% 0.3% 7.4%;
-  color: #000000;
+  color: white;
+  border: 0.5px solid white;
 }
 
 
@@ -203,6 +221,8 @@ SCROLL TO TOP
 
 
 
+
+
 .worktitle {
   text-align: center;
   margin: -2px 75px 0px 0px;
@@ -210,6 +230,7 @@ SCROLL TO TOP
   font-family: exo light;
   color: #212529;
 }
+
 
 
 
