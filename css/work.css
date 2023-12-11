@@ -159,3 +159,20 @@ label {
   opacity: 1;
   filter: drop-shadow(-7px 0px 01px rgb(255, 255, 255));
 }
+
+
+@font-face {
+  font-family: futura;
+  src: url("futura.ttf");
+}
+
+
+@font-face {
+  font-family: futura light;
+  src: url("futura light bt.ttf");
+}
+
+@font-face {
+  font-family: exo light;
+  src: url(Exo-VariableFont_wght.ttf);
+}
