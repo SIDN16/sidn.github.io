@@ -274,15 +274,19 @@ SCROLL TO TOP
   transition: 0.5s;
 }
 
+
 @font-face {
   font-family: futura;
   src: url("futura.ttf");
 }
 
+
 @font-face {
   font-family: futura light;
-  src: url("Futura Light font.ttf");
+  src: url("futura light bt.ttf");
 }
 
-
-
+@font-face {
+  font-family: exo light;
+  src: url(Exo-VariableFont_wght.ttf);
+}
