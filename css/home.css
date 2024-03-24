@@ -429,8 +429,8 @@ SCROLL TO TOP
 
   .contacticons img:hover {
     scale: 1.07;
-    max-width: 16%;
-    margin: 30px 5px 0px 30px;
+    max-width: 14%;
+    margin: 20px 8px 0px 35px;
     height: auto;
     display: inline-block;
     filter: grayscale(0%);
@@ -905,7 +905,7 @@ SCROLL TO TOP
   .contacticons img:hover {
     scale: 1.07;
     max-width: 14%;
-    margin: 30px 5px 0px 30px;
+    margin: 30px 5px 0px 15px;
     height: auto;
     display: inline-block;
     filter: grayscale(0%);
