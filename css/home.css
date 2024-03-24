@@ -3,7 +3,7 @@ body {
   padding: 0px;
   overflow-x: hidden;
   opacity: 1;
-  background-color: #212529!important;
+  background-color: #212529 !important;
 }
 
 #bgVideo {
@@ -77,13 +77,9 @@ SCROLL TO TOP
   color: #212529;
   border-radius: 5px;
   transition: 0.2s;
-
 }
 
-
-
 /* Profile Pic */
-
 
 .profile1 {
   border: 2px solid white;
@@ -116,15 +112,7 @@ SCROLL TO TOP
   font-size: 2.3em;
 }
 
-.hr1 {
-  margin: 0.3% 7.4% 0.3% 7.4%;
-  color: white;
-  border: 0.5px solid white;
-}
-
-
 /* My info */
-
 
 .info {
   font-family: futura light;
@@ -219,28 +207,15 @@ SCROLL TO TOP
   margin: 0px 0px 0px 30px;
 }
 
-
-
-
-
 .worktitle {
   text-align: center;
   margin: -2px 75px 0px 0px;
-  font-size: 0.80em;
+  font-size: 0.8em;
   font-family: exo light;
   color: #212529;
 }
 
-
-
-
-
-
-
 /* Overlay */
-
-
-
 
 #overlay {
   display: none;
@@ -272,10 +247,7 @@ SCROLL TO TOP
   overflow: hidden !important;
 }
 
-
-
 /* OVERLAY CLOSE BUTTON */
-
 
 #close-btn {
   position: absolute;
@@ -297,12 +269,10 @@ SCROLL TO TOP
   transition: 0.5s;
 }
 
-
 @font-face {
   font-family: futura;
   src: url("futura.ttf");
 }
-
 
 @font-face {
   font-family: futura light;
@@ -314,9 +284,7 @@ SCROLL TO TOP
   src: url(Exo-VariableFont_wght.ttf);
 }
 
-@media (max-width: 1536px){
-  
-
+@media (max-width: 1536px) {
   .Button {
     margin: 15px 0px 15px 0px;
     padding: 10px 20px 10px 20px;
@@ -329,7 +297,7 @@ SCROLL TO TOP
     font-size: 1.2em;
     font-family: futura;
   }
-  
+
   .Button:hover {
     color: #212529;
     background-color: black;
@@ -340,7 +308,7 @@ SCROLL TO TOP
     border-radius: 10px;
     background-color: #ffc107;
   }
-  
+
   .Button:active {
     color: rgb(0, 0, 0);
     background-color: #ffc107;
@@ -354,11 +322,11 @@ SCROLL TO TOP
     padding: 6px 25px 6px 25px;
     transition: 0.2s;
   }
-  
+
   /* 
   SCROLL TO TOP 
   */
-  
+
   #topBtn {
     display: block;
     position: fixed;
@@ -372,20 +340,16 @@ SCROLL TO TOP
     cursor: pointer;
     border-radius: 15px;
   }
-  
+
   #topBtn:hover {
     background-color: #ffc107;
     color: #212529;
     border-radius: 5px;
     transition: 0.2s;
-  
   }
-  
-  
-  
+
   /* Profile Pic */
-  
-  
+
   .profile1 {
     border: 2px solid white;
     border-radius: 100%;
@@ -393,7 +357,7 @@ SCROLL TO TOP
     margin: 30px 0px 10px 60px;
     filter: grayscale(100%);
   }
-  
+
   .profile1:hover {
     transform: scale(1.1);
     transition: 0.7s;
@@ -404,29 +368,27 @@ SCROLL TO TOP
     filter: grayscale(0%);
     margin: 30px 0px 10px 60px;
   }
-  
+
   .Name {
     font-family: futura;
     margin: 15px 10px 0px 40px;
     font-size: 4em;
   }
-  
+
   .Name1 {
     font-family: futura;
     margin: 0px 10px 15px 40px;
     font-size: 2.3em;
   }
-  
+
   .hr1 {
     margin: 0.3% 10% 0.3% 10%;
     color: white;
     border: 0.5px solid white;
   }
-  
-  
+
   /* My info */
-  
-  
+
   .info {
     font-family: futura light;
     margin: 30px 15px 0px 15px;
@@ -434,37 +396,37 @@ SCROLL TO TOP
     font-weight: 350;
     color: white;
   }
-  
+
   .contact {
     font-family: futura;
-    margin: 80px 15px 0px 50px;
+    margin: 40px 15px 0px 50px;
     font-size: 1.5em;
     color: white;
     text-decoration: none;
   }
-  
+
   .contactinfo {
     font-family: futura light;
-    margin: 17px 0px 0px 20px;
+    margin: 30px 0px 0px 30px;
     font-size: 0.8em;
     font-weight: 350;
     color: white;
     text-decoration: none;
   }
-  
+
   .contacticons a {
     text-decoration: none;
   }
-  
+
   .contacticons img {
-    max-width: 16%;
-    margin: 30px 5px 0px 30px;
+    max-width: 14%;
+    margin: 20px 8px 0px 35px;
     height: auto;
     display: inline-block;
     filter: grayscale(100%);
     border-radius: 100%;
   }
-  
+
   .contacticons img:hover {
     scale: 1.07;
     max-width: 16%;
@@ -476,12 +438,9 @@ SCROLL TO TOP
     border-radius: 10%;
     cursor: pointer;
   }
-  
 }
 
-@media (max-width: 1280px){
-  
-
+@media (max-width: 1280px) {
   .Button {
     margin: 15px 0px 15px 0px;
     padding: 10px 20px 10px 20px;
@@ -494,7 +453,7 @@ SCROLL TO TOP
     font-size: 1.2em;
     font-family: futura;
   }
-  
+
   .Button:hover {
     color: #212529;
     background-color: black;
@@ -505,7 +464,7 @@ SCROLL TO TOP
     border-radius: 10px;
     background-color: #ffc107;
   }
-  
+
   .Button:active {
     color: rgb(0, 0, 0);
     background-color: #ffc107;
@@ -519,12 +478,9 @@ SCROLL TO TOP
     padding: 6px 25px 6px 25px;
     transition: 0.2s;
   }
-  
-  
-  
+
   /* Profile Pic */
-  
-  
+
   .profile1 {
     border: 2px solid white;
     border-radius: 100%;
@@ -532,7 +488,7 @@ SCROLL TO TOP
     margin: 30px 0px 10px 40px;
     filter: grayscale(100%);
   }
-  
+
   .profile1:hover {
     transform: scale(1.1);
     transition: 0.7s;
@@ -543,29 +499,27 @@ SCROLL TO TOP
     filter: grayscale(0%);
     margin: 30px 0px 10px 60px;
   }
-  
+
   .Name {
     font-family: futura;
     margin: 15px 10px 0px 40px;
     font-size: 3.5em;
   }
-  
+
   .Name1 {
     font-family: futura;
     margin: 0px 10px 15px 40px;
     font-size: 1.8em;
   }
-  
+
   .hr1 {
     margin: 0.3% 10% 0.3% 10%;
     color: white;
     border: 0.5px solid white;
   }
-  
-  
+
   /* My info */
-  
-  
+
   .info {
     font-family: futura light;
     margin: 30px 15px 0px 15px;
@@ -573,7 +527,7 @@ SCROLL TO TOP
     font-weight: 350;
     color: white;
   }
-  
+
   .contact {
     font-family: futura;
     margin: 80px 15px 0px 40px;
@@ -581,7 +535,7 @@ SCROLL TO TOP
     color: white;
     text-decoration: none;
   }
-  
+
   .contactinfo {
     font-family: futura light;
     margin: 17px 0px 0px 20px;
@@ -590,11 +544,11 @@ SCROLL TO TOP
     color: white;
     text-decoration: none;
   }
-  
+
   .contacticons a {
     text-decoration: none;
   }
-  
+
   .contacticons img {
     max-width: 14%;
     margin: 30px 5px 0px 30px;
@@ -603,7 +557,7 @@ SCROLL TO TOP
     filter: grayscale(100%);
     border-radius: 100%;
   }
-  
+
   .contacticons img:hover {
     scale: 1.07;
     max-width: 14%;
@@ -615,58 +569,50 @@ SCROLL TO TOP
     border-radius: 10%;
     cursor: pointer;
   }
-  
-/* WORK GALLERY */
 
-.work1 {
-  height: 85%;
-  transition: 0.5s;
-  border-radius: 5%;
-  margin: 0px 0px 0px 30px;
-  filter: blur(0.5px) grayscale(100%);
-  border: #ffffff 2px solid;
+  /* WORK GALLERY */
+
+  .work1 {
+    height: 85%;
+    transition: 0.5s;
+    border-radius: 5%;
+    margin: 0px 0px 0px 30px;
+    filter: blur(0.5px) grayscale(100%);
+    border: #ffffff 2px solid;
+  }
+
+  .work1:hover {
+    height: 85%;
+    filter: grayscale(0%);
+    transition: 0.5s;
+    scale: 1.12;
+    border-radius: 0%;
+    filter: drop-shadow(0px 0px 5px rgb(0, 0, 0));
+    margin: 0px 0px 0px 30px;
+    border: 0px;
+    cursor: pointer;
+  }
+
+  .work1:active {
+    height: 85%;
+    filter: grayscale(0%);
+    transition: 0.5s;
+    scale: 0.9;
+    border-radius: 0%;
+    filter: drop-shadow(0px 0px 5px rgb(0, 0, 0));
+    margin: 0px 0px 0px 30px;
+  }
+
+  .worktitle {
+    text-align: center;
+    margin: -2px 75px 0px 0px;
+    font-size: 0.8em;
+    font-family: exo light;
+    color: #212529;
+  }
 }
 
-.work1:hover {
-  height: 85%;
-  filter: grayscale(0%);
-  transition: 0.5s;
-  scale: 1.12;
-  border-radius: 0%;
-  filter: drop-shadow(0px 0px 5px rgb(0, 0, 0));
-  margin: 0px 0px 0px 30px;
-  border: 0px;
-  cursor: pointer;
-}
-
-.work1:active {
-  height: 85%;
-  filter: grayscale(0%);
-  transition: 0.5s;
-  scale: 0.9;
-  border-radius: 0%;
-  filter: drop-shadow(0px 0px 5px rgb(0, 0, 0));
-  margin: 0px 0px 0px 30px;
-}
-
-
-
-
-
-.worktitle {
-  text-align: center;
-  margin: -2px 75px 0px 0px;
-  font-size: 0.80em;
-  font-family: exo light;
-  color: #212529;
-}
-
-
-}
-
-@media (max-width: 1024px){
-  
-
+@media (max-width: 1024px) {
   .Button {
     margin: 15px 0px 15px 0px;
     padding: 10px 20px 10px 20px;
@@ -679,7 +625,7 @@ SCROLL TO TOP
     font-size: 1.2em;
     font-family: futura;
   }
-  
+
   .Button:hover {
     color: #212529;
     background-color: black;
@@ -690,7 +636,7 @@ SCROLL TO TOP
     border-radius: 10px;
     background-color: #ffc107;
   }
-  
+
   .Button:active {
     color: rgb(0, 0, 0);
     background-color: #ffc107;
@@ -704,12 +650,9 @@ SCROLL TO TOP
     padding: 6px 25px 6px 25px;
     transition: 0.2s;
   }
-  
-  
-  
+
   /* Profile Pic */
-  
-  
+
   .profile1 {
     border: 2px solid white;
     border-radius: 100%;
@@ -717,7 +660,7 @@ SCROLL TO TOP
     margin: 30px 0px 10px 40px;
     filter: grayscale(100%);
   }
-  
+
   .profile1:hover {
     transform: scale(1.1);
     transition: 0.7s;
@@ -728,29 +671,27 @@ SCROLL TO TOP
     filter: grayscale(0%);
     margin: 30px 0px 10px 60px;
   }
-  
+
   .Name {
     font-family: futura;
     margin: 15px 10px 0px 40px;
     font-size: 3.5em;
   }
-  
+
   .Name1 {
     font-family: futura;
     margin: 0px 10px 15px 40px;
     font-size: 1.8em;
   }
-  
+
   .hr1 {
     margin: 0.3% 10% 0.3% 10%;
     color: white;
     border: 0.5px solid white;
   }
-  
-  
+
   /* My info */
-  
-  
+
   .info {
     font-family: futura light;
     margin: 30px 15px 0px 15px;
@@ -758,7 +699,7 @@ SCROLL TO TOP
     font-weight: 350;
     color: white;
   }
-  
+
   .contact {
     font-family: futura;
     margin: 80px 15px 0px 40px;
@@ -766,7 +707,7 @@ SCROLL TO TOP
     color: white;
     text-decoration: none;
   }
-  
+
   .contactinfo {
     font-family: futura light;
     margin: 17px 0px 0px 20px;
@@ -775,11 +716,11 @@ SCROLL TO TOP
     color: white;
     text-decoration: none;
   }
-  
+
   .contacticons a {
     text-decoration: none;
   }
-  
+
   .contacticons img {
     max-width: 14%;
     margin: 30px 5px 0px 30px;
@@ -788,7 +729,7 @@ SCROLL TO TOP
     filter: grayscale(100%);
     border-radius: 100%;
   }
-  
+
   .contacticons img:hover {
     scale: 1.07;
     max-width: 14%;
@@ -800,58 +741,50 @@ SCROLL TO TOP
     border-radius: 10%;
     cursor: pointer;
   }
-  
-/* WORK GALLERY */
 
-.work1 {
-  height: 70%;
-  transition: 0.5s;
-  border-radius: 5%;
-  margin: 0px 0px 0px 30px;
-  filter: blur(0.5px) grayscale(100%);
-  border: #ffffff 2px solid;
+  /* WORK GALLERY */
+
+  .work1 {
+    height: 70%;
+    transition: 0.5s;
+    border-radius: 5%;
+    margin: 0px 0px 0px 30px;
+    filter: blur(0.5px) grayscale(100%);
+    border: #ffffff 2px solid;
+  }
+
+  .work1:hover {
+    height: 70%;
+    filter: grayscale(0%);
+    transition: 0.5s;
+    scale: 1.12;
+    border-radius: 0%;
+    filter: drop-shadow(0px 0px 5px rgb(0, 0, 0));
+    margin: 0px 0px 0px 30px;
+    border: 0px;
+    cursor: pointer;
+  }
+
+  .work1:active {
+    height: 70%;
+    filter: grayscale(0%);
+    transition: 0.5s;
+    scale: 0.9;
+    border-radius: 0%;
+    filter: drop-shadow(0px 0px 5px rgb(0, 0, 0));
+    margin: 0px 0px 0px 30px;
+  }
+
+  .worktitle {
+    text-align: center;
+    margin: -2px 75px 0px 0px;
+    font-size: 0.8em;
+    font-family: exo light;
+    color: #212529;
+  }
 }
 
-.work1:hover {
-  height: 70%;
-  filter: grayscale(0%);
-  transition: 0.5s;
-  scale: 1.12;
-  border-radius: 0%;
-  filter: drop-shadow(0px 0px 5px rgb(0, 0, 0));
-  margin: 0px 0px 0px 30px;
-  border: 0px;
-  cursor: pointer;
-}
-
-.work1:active {
-  height: 70%;
-  filter: grayscale(0%);
-  transition: 0.5s;
-  scale: 0.9;
-  border-radius: 0%;
-  filter: drop-shadow(0px 0px 5px rgb(0, 0, 0));
-  margin: 0px 0px 0px 30px;
-}
-
-
-
-
-
-.worktitle {
-  text-align: center;
-  margin: -2px 75px 0px 0px;
-  font-size: 0.80em;
-  font-family: exo light;
-  color: #212529;
-}
-
-
-}
-
-@media (max-width: 768px){
-  
-
+@media (max-width: 768px) {
   .Button {
     margin: 12px 0px 20px 0px;
     padding: 10px 12px 10px 12px;
@@ -864,7 +797,7 @@ SCROLL TO TOP
     font-size: 0.9em;
     font-family: futura;
   }
-  
+
   .Button:hover {
     color: #212529;
     background-color: black;
@@ -875,7 +808,7 @@ SCROLL TO TOP
     border-radius: 10px;
     background-color: #ffc107;
   }
-  
+
   .Button:active {
     color: rgb(0, 0, 0);
     background-color: #ffc107;
@@ -889,12 +822,9 @@ SCROLL TO TOP
     padding: 6px 25px 6px 25px;
     transition: 0.2s;
   }
-  
-  
-  
+
   /* Profile Pic */
-  
-  
+
   .profile1 {
     border: 2px solid white;
     border-radius: 100%;
@@ -902,7 +832,7 @@ SCROLL TO TOP
     margin: 30px 0px 10px 30px;
     filter: grayscale(100%);
   }
-  
+
   .profile1:hover {
     transform: scale(1.1);
     transition: 0.7s;
@@ -913,29 +843,27 @@ SCROLL TO TOP
     filter: grayscale(0%);
     margin: 30px 0px 10px 40px;
   }
-  
+
   .Name {
     font-family: futura;
     margin: 15px 10px 0px 40px;
     font-size: 3.5em;
   }
-  
+
   .Name1 {
     font-family: futura;
     margin: 0px 10px 15px 40px;
     font-size: 1.8em;
   }
-  
+
   .hr1 {
     margin: 0.3% 10% 0.3% 10%;
     color: white;
     border: 0.5px solid white;
   }
-  
-  
+
   /* My info */
-  
-  
+
   .info {
     font-family: futura light;
     margin: 30px 15px 0px 15px;
@@ -943,7 +871,7 @@ SCROLL TO TOP
     font-weight: 350;
     color: white;
   }
-  
+
   .contact {
     font-family: futura;
     margin: 70px 0px 0px 15px;
@@ -951,7 +879,7 @@ SCROLL TO TOP
     color: white;
     text-decoration: none;
   }
-  
+
   .contactinfo {
     font-family: futura light;
     margin: 17px 0px 0px 10px;
@@ -960,11 +888,11 @@ SCROLL TO TOP
     color: white;
     text-decoration: none;
   }
-  
+
   .contacticons a {
     text-decoration: none;
   }
-  
+
   .contacticons img {
     max-width: 14%;
     margin: 30px 5px 0px 15px;
@@ -973,7 +901,7 @@ SCROLL TO TOP
     filter: grayscale(100%);
     border-radius: 100%;
   }
-  
+
   .contacticons img:hover {
     scale: 1.07;
     max-width: 14%;
@@ -985,51 +913,45 @@ SCROLL TO TOP
     border-radius: 10%;
     cursor: pointer;
   }
-  
-/* WORK GALLERY */
 
-.work1 {
-  height: 50%;
-  transition: 0.5s;
-  border-radius: 5%;
-  margin: 0px 0px -100px 10px;
-  filter: blur(0.5px) grayscale(100%);
-  border: #ffffff 2px solid;
-}
+  /* WORK GALLERY */
 
-.work1:hover {
-  height: 50%;
-  filter: grayscale(0%);
-  transition: 0.5s;
-  scale: 1.12;
-  border-radius: 0%;
-  filter: drop-shadow(0px 0px 5px rgb(0, 0, 0));
-  margin: 0px 0px 0px 10px;
-  border: 0px;
-  cursor: pointer;
-}
+  .work1 {
+    height: 50%;
+    transition: 0.5s;
+    border-radius: 5%;
+    margin: 0px 0px -100px 10px;
+    filter: blur(0.5px) grayscale(100%);
+    border: #ffffff 2px solid;
+  }
 
-.work1:active {
-  height: 50%;
-  filter: grayscale(0%);
-  transition: 0.5s;
-  scale: 0.9;
-  border-radius: 0%;
-  filter: drop-shadow(0px 0px 5px rgb(0, 0, 0));
-  margin: 0px 0px 0px 10px;
-}
+  .work1:hover {
+    height: 50%;
+    filter: grayscale(0%);
+    transition: 0.5s;
+    scale: 1.12;
+    border-radius: 0%;
+    filter: drop-shadow(0px 0px 5px rgb(0, 0, 0));
+    margin: 0px 0px 0px 10px;
+    border: 0px;
+    cursor: pointer;
+  }
 
+  .work1:active {
+    height: 50%;
+    filter: grayscale(0%);
+    transition: 0.5s;
+    scale: 0.9;
+    border-radius: 0%;
+    filter: drop-shadow(0px 0px 5px rgb(0, 0, 0));
+    margin: 0px 0px 0px 10px;
+  }
 
-
-
-
-.worktitle {
-  text-align: center;
-  margin: -2px 75px 0px 0px;
-  font-size: 0.80em;
-  font-family: exo light;
-  color: #212529;
-}
-
-
+  .worktitle {
+    text-align: center;
+    margin: -2px 75px 0px 0px;
+    font-size: 0.8em;
+    font-family: exo light;
+    color: #212529;
+  }
 }

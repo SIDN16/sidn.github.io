@@ -6,17 +6,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 //Slide work gallery
 
 $(document).ready(function () {
@@ -74,68 +63,68 @@ $(document).ready(function () {
 
 
 
-// Overlay
+// // Overlay
 
-document.querySelectorAll('.overlay-trigger').forEach(function (trigger) {
-    trigger.addEventListener('click', function () {
-        openOverlay(trigger.querySelector('img').src, trigger.getAttribute('data-text'));
-    });
-});
+// document.querySelectorAll('.overlay-trigger').forEach(function (trigger) {
+//     trigger.addEventListener('click', function () {
+//         openOverlay(trigger.querySelector('img').src, trigger.getAttribute('data-text'));
+//     });
+// });
 
-function openOverlay(imageSrc, altText) {
-    var overlay = document.getElementById('p-overlay');
-    var overlayImage = document.getElementById('p-overlay-image');
-    var scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
+// function openOverlay(imageSrc, altText) {
+//     var overlay = document.getElementById('p-overlay');
+//     var overlayImage = document.getElementById('p-overlay-image');
+//     var scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
 
-    // current scroll position
-    var scrollPosition = window.scrollY;
+//     // current scroll position
+//     var scrollPosition = window.scrollY;
 
-    // Hide the scrollbar
-    if (scrollbarWidth > 0) {
-        document.body.style.paddingRight = scrollbarWidth + 'px';
-    }
+//     // Hide the scrollbar
+//     if (scrollbarWidth > 0) {
+//         document.body.style.paddingRight = scrollbarWidth + 'px';
+//     }
 
     
-    overlayImage.src = imageSrc;
-    overlayImage.alt = altText;
+//     overlayImage.src = imageSrc;
+//     overlayImage.alt = altText;
 
-    // opening animation
-    overlay.style.transition = 'opacity 0.5s';
-    overlay.style.display = 'flex';
+//     // opening animation
+//     overlay.style.transition = 'opacity 0.5s';
+//     overlay.style.display = 'flex';
 
-    // prevent scrolling
-    document.body.classList.add('overlay-open');
+//     // prevent scrolling
+//     document.body.classList.add('overlay-open');
 
-    setTimeout(() => {
-        overlay.style.opacity = '1';
-    }, 10);
+//     setTimeout(() => {
+//         overlay.style.opacity = '1';
+//     }, 10);
 
-    // scroll position after the overlay is opened
-    window.scrollTo(0, scrollPosition);
-}
+//     // scroll position after the overlay is opened
+//     window.scrollTo(0, scrollPosition);
+// }
 
-function closeOverlay() {
-    var overlay = document.getElementById('p-overlay');
+// function closeOverlay() {
+//     var overlay = document.getElementById('p-overlay');
 
-    var scrollPosition = window.scrollY;
+//     var scrollPosition = window.scrollY;
 
-    // closing animation
-    overlay.style.transition = 'opacity 0.5s';
-    overlay.style.opacity = '0';
+//     // closing animation
+//     overlay.style.transition = 'opacity 0.5s';
+//     overlay.style.opacity = '0';
 
-    setTimeout(() => {
-        // allow scrolling
-        document.body.classList.remove('overlay-open');
+//     setTimeout(() => {
+//         // allow scrolling
+//         document.body.classList.remove('overlay-open');
 
       
-        overlay.style.display = 'none';
+//         overlay.style.display = 'none';
 
-        // body's padding and overflow when closing the overlay
-        document.body.style.overflow = 'auto';
-        document.body.style.paddingRight = '0';
-        window.scrollTo(0, scrollPosition);
-    }, 500); // 
-}
+//         // body's padding and overflow when closing the overlay
+//         document.body.style.overflow = 'auto';
+//         document.body.style.paddingRight = '0';
+//         window.scrollTo(0, scrollPosition);
+//     }, 500); // 
+// }
 
 
 

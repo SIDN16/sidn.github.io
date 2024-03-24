@@ -1,4 +1,3 @@
-
 /* Setup and Products Used */
 
 .setup {
@@ -20,7 +19,6 @@
   font-weight: 350;
   color: white;
 }
-
 
 /* Photography Gallery */
 
@@ -97,7 +95,6 @@
   margin: 0px 150px 0px 10px;
 }
 
-
 /* Overlay Close Button */
 
 #close-btn {
@@ -120,10 +117,7 @@
   transition: 0.5s;
 }
 
-
-@media screen and (max-width: 600px) {
-  /* Existing styles... */
-
+@media screen and (max-width: 1536px) {
   /* Setup and Products Used */
 
   .setup {
@@ -141,7 +135,7 @@
   .s-info {
     font-family: futura light;
     margin: 25px 15px 0px 15px;
-    font-size: 0.9em;
+    font-size: 0.8em;
     font-weight: 350;
     color: white;
   }
@@ -149,34 +143,34 @@
   /* Photography Gallery */
 
   .pwork1 {
-    height: 10%;
+    height: 100%;
     transition: 0.5s;
     border-radius: 5%;
-    margin: 0px 10px 0px 0px;
+    margin: 0px 0px 0px 0px;
     filter: blur(0.5px) grayscale(100%);
     border: #ffffff 2px solid;
   }
 
   .pwork1:hover {
-    height: 60%;
+    height: 100%;
     filter: grayscale(0%);
     transition: 0.5s;
     scale: 1.12;
     border-radius: 0%;
     filter: drop-shadow(0px 0px 5px rgb(0, 0, 0));
-    margin: 0px 10px 0px 0px;
+    margin: 0px 30px 0px 0px;
     border: 0px;
     cursor: pointer;
   }
 
   .pwork1:active {
-    height: 60%;
+    height: 100%;
     filter: grayscale(0%);
     transition: 0.3s;
     scale: 0.9;
     border-radius: 10%;
     filter: drop-shadow(0px 0px 5px rgb(0, 0, 0));
-    margin: 0px 10px 0px 0px;
+    margin: 0px 30px 0px 0px;
   }
 
   /* Overlay */
@@ -241,5 +235,123 @@
     cursor: pointer;
     font-size: 4em;
     transition: 0.5s;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  /* Setup and Products Used */
+
+  .setup {
+    font-family: futura;
+    color: white;
+    margin: 0px 0px 0px 30px;
+    font-size: 1.3em;
+  }
+
+  .products {
+    font-family: futura;
+    color: white;
+    margin: 30px 0px -1px 6px;
+    font-size: 0.9em;
+  }
+
+  .s-info {
+    font-family: futura light;
+    margin: 25px 15px 0px 15px;
+    font-size: 0.6em;
+    font-weight: 350;
+    color: white;
+  }
+
+  /* Photography Gallery */
+
+  .pwork1 {
+    height: 75%;
+    transition: 0.5s;
+    border-radius: 5%;
+    margin: 0px 0px 0px 0px;
+    filter: blur(0.5px) grayscale(100%);
+    border: #ffffff 2px solid;
+  }
+
+  .pwork1:hover {
+    height: 75%;
+    filter: grayscale(0%);
+    transition: 0.5s;
+    scale: 1.3;
+    border-radius: 0%;
+    filter: drop-shadow(0px 0px 5px rgb(0, 0, 0));
+    margin: 0px 0px 0px 0px;
+    border: 0px;
+    cursor: pointer;
+  }
+
+  .pwork1:active {
+    height: 75%;
+    filter: grayscale(0%);
+    transition: 0.3s;
+    scale: 0.9;
+    border-radius: 10%;
+    filter: drop-shadow(0px 0px 5px rgb(0, 0, 0));
+    margin: 0px 0px 0px 0px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  /* Setup and Products Used */
+
+  .setup {
+    font-family: futura;
+    color: white;
+    margin: 0px 0px 0px 30px;
+    font-size: 0.9em;
+  }
+
+  .products {
+    font-family: futura;
+    color: white;
+    margin: 30px 0px -1px 6px;
+    font-size: 0.7em;
+  }
+
+  .s-info {
+    font-family: futura light;
+    margin: 25px 15px 0px 15px;
+    font-size: 0.4em;
+    font-weight: 350;
+    color: white;
+  }
+
+  /* Photography Gallery */
+
+  .pwork1 {
+    height: 65%;
+    transition: 0.5s;
+    border-radius: 5%;
+    margin: 0px 0px 0px 0px;
+    filter: blur(0.5px) grayscale(100%);
+    border: #ffffff 2px solid;
+  }
+
+  .pwork1:hover {
+    height: 65%;
+    filter: grayscale(0%);
+    transition: 0.5s;
+    scale: 1.3;
+    border-radius: 0%;
+    filter: drop-shadow(0px 0px 5px rgb(0, 0, 0));
+    margin: 0px 0px 0px 0px;
+    border: 0px;
+    cursor: pointer;
+  }
+
+  .pwork1:active {
+    height: 65%;
+    filter: grayscale(0%);
+    transition: 0.3s;
+    scale: 0.9;
+    border-radius: 10%;
+    filter: drop-shadow(0px 0px 5px rgb(0, 0, 0));
+    margin: 0px 0px 0px 0px;
   }
 }
